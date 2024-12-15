@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in VBScript's `IsEmpty` function.  When passing numeric values that resolve to empty strings (e.g., ""),  `IsEmpty` might not always reliably detect emptiness, leading to unexpected program behavior. The `bug.vbs` file showcases the issue; `bugSolution.vbs` provides a corrected version.
